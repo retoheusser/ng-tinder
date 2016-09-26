@@ -1,0 +1,20 @@
+{
+  "name": "ng-tinder",
+  "homepage": "https://github.com/retoheusser/ng-tinder",
+  "authors": [
+    "retoheusser"
+  ],
+  "description": "Tinder API implementation for AngularJS",
+  "main": "src/tinder-service.js",
+  "keywords": [
+    "tinder", "angular"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

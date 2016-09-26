@@ -1,0 +1,20 @@
+<html>
+<body ng-app="testApp">
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script>
+<script type="text/javascript" src="../src/tinder-service.js"></script>
+<script type="text/javascript">
+(function () {
+	angular.module("testApp", ["retoheusser.ng-tinder"])
+	.config(function ($tinderProvider) {
+		var PROXY_URL = "https://tinderroulette.appspot.com/proxy/";
+		$tinderProvider.useProxy(PROXY_URL);
+		console.log(PROXY_URL);
+	})
+	.run(function ($tinder) {
+		window.tinder = $tinder;
+	});
+})();
+</script>
+</body>
+</html>
