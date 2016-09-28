@@ -1,4 +1,4 @@
-# Tinder API implementiation for Angular
+# Tinder API implementiation for Angular (in development)
 
 ## Installation
 `bower install ng-tinder`
