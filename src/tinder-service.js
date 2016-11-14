@@ -3,6 +3,7 @@
 	.provider("$tinder", TinderProvider);
 
 	function TinderProvider() {
+		// the comment makes a diff
 		var Provider = this,
 			_proxy;
 
